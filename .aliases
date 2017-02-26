@@ -11,6 +11,9 @@ alias c="clear"
 alias df="grc df -h -T"
 alias du="grc du -h -d 2 --time"
 
+# Git
+alias lc="ref=$(git symbolic-ref HEAD 2> /dev/null) || return; git log -1 --pretty=format:\"%ar\" | sed 's/\([0-9]*\) \(.\).*/\1\2/'"
+
 # Folder shortcuts
 alias dl="cd ~/Downloads"
 alias docs="cd ~/Documents"

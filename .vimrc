@@ -10,6 +10,7 @@ set showcmd
 set showmode
 set autoread
 set scrolloff=4
+set whichwrap+=<,>
 set ruler
 set hlsearch
 set incsearch
