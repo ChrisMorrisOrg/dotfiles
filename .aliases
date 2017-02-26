@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+# Navigation hacks
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Terminal shortcuts
+alias c="clear"
+alias df="grc df -h -T"
+alias du="grc du -h -d 2 --time"
+
+# Folder shortcuts
+alias dl="cd ~/Downloads"
+alias docs="cd ~/Documents"
+alias h="history | tail -n 40 | lolcat"
+
+# Network
+alias localip="ipconfig getifaddr en0"
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias sniff="sudo ngrep -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+
+# System functionality
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend" # Lock the screen
+
+# Maintenance
+alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+
+# Miscellaneous
+alias sudo='sudo ' # Allow aliases to run under sudo
+alias reloadzsh='. ~/.zshrc'
+

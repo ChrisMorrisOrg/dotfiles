@@ -1,0 +1,11 @@
+# Node
+node_modules
+
+# npm
+npm-debug.log
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+logs
+tmp

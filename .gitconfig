@@ -1,0 +1,8 @@
+[user]
+  name = Chris Morris
+  email = chris@chrismorris.org
+[color]
+  diff = auto
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore-global
