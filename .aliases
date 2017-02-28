@@ -1,10 +1,23 @@
 #!/usr/bin/env bash
 
+export EDITOR=/usr/bin/vim
 # Navigation hacks
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+
+# File management
+alias mv="mv -v"
+alias cp="cp -v"
+alias rm="rm -iv"
+alias fs="stat -f \"%z bytes\""
+
+# Configuration files
+alias aliases="$EDITOR ~/.aliases"
+alias sshconfig="$EDITOR ~/.ssh/config"
+alias zshrc="$EDITOR ~/.zshrc"
+alias hosts="sudo $EDITOR /etc/hosts"
 
 # Terminal shortcuts
 alias c="clear"
