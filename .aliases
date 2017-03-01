@@ -6,6 +6,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias b="cd -"
 
 # File management
 alias mv="mv -v"
@@ -30,6 +31,7 @@ alias lc="ref=$(git symbolic-ref HEAD 2> /dev/null) || return; git log -1 --pret
 # Folder shortcuts
 alias dl="cd ~/Downloads"
 alias docs="cd ~/Documents"
+alias p="cd ~/Documents/Projects"
 alias h="history | tail -n 40 | lolcat"
 
 # Network
