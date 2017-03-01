@@ -4,8 +4,27 @@ node_modules
 # npm
 npm-debug.log
 
-# Miscellaneous
+# Mac
 .DS_Store
 Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Git
+.gitconfig.local
+
+# Miscellaneous
 logs
 tmp
+
+# Vim
+.vim/swaps/*
+.vim/undo
+.vim/viminfo
+
+# Swapfiles
+*.swp
+*.swap
+
+# Python
+*.pyc
